@@ -33,6 +33,40 @@ Developed a Scatter Plot Diagnostic mapping Average Discount % against Profit Ma
 
 Prescriptive Analytics (The Decision Engine):
 
+
 Engineered a dynamic "What-If" Simulator using a DAX SUMX row-context iterator. This allows executives to adjust a "Maximum Discount Cap" slider and instantly visualize recovered simulated profit.
+
+Built an Action Matrix using conditional DAX logic to automatically output text-based business recommendations (e.g., "Cap Discounts" vs. "Audit Supplier Costs") for the bottom 5 underperforming sub-categories.
+
+Engineered a dynamic "What-If" Simulator using a DAX SUMX row-context iterator. This allows executives to adjust a "Maximum Discount Cap" slider and instantly visualize recovered simulated profit.
+
+🏡 Project 2: Advanced House Price Prediction (Production-Ready Pipeline)
+File: house-price-1st (1).ipynb
+
+🎯 Problem Statement
+Real estate valuation is heavily dependent on a vast and complex array of interconnected variables. The goal of this project was to analyze a high-dimensional dataset of 1,460 residential homes across 81 distinct features to identify the true drivers of property value and build a robust, deployment-ready machine learning pipeline to predict future sale prices.
+
+🧠 Methodology & Execution
+Exploratory Data Analysis (EDA):
+
+Conducted initial data profiling to identify dataset dimensions and isolate features with high missing-value sparsity.
+
+Analyzed statistical summaries and distributions to inform the imputation strategy for both categorical and continuous variables.
+
+Advanced Data Engineering (ColumnTransformer):
+
+Engineered a scalable, production-grade preprocessing architecture using scikit-learn.
+
+Developed a custom ColumnTransformer to programmatically route different data types through dedicated transformation streams (e.g., applying OneHotEncoder to categorical features and scaling/imputing numerical features simultaneously).
+
+Systematically cleaned and imputed missing data across all 81 columns, ensuring a highly efficient workflow that prevents data leakage.
+
+Predictive Modeling (Pipeline Integration):
+
+Integrated the entire preprocessing and feature-engineering phase into a unified Machine Learning Pipeline.
+
+Trained the final regression model (Random Forest Regressor) directly through the pipeline, ensuring that all data transformations are automatically applied to any new, unseen data in a live environment.
+
+Evaluated the model's predictive accuracy to validate its reliability for real-world real estate pricing.
 
 Built an Action Matrix using conditional DAX logic to automatically output text-based business recommendations (e.g., "Cap Discounts" vs. "Audit Supplier Costs") for the bottom 5 underperforming sub-categories.
