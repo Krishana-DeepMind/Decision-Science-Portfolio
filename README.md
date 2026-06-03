@@ -40,6 +40,8 @@ Built an Action Matrix using conditional DAX logic to automatically output text-
 
 Engineered a dynamic "What-If" Simulator using a DAX SUMX row-context iterator. This allows executives to adjust a "Maximum Discount Cap" slider and instantly visualize recovered simulated profit.
 
+Built an Action Matrix using conditional DAX logic to automatically output text-based business recommendations (e.g., "Cap Discounts" vs. "Audit Supplier Costs") for the bottom 5 underperforming sub-categories.
+
 🏡 Project 2: Advanced House Price Prediction (Production-Ready Pipeline)
 File: house-price-1st (1).ipynb
 
@@ -69,4 +71,3 @@ Trained the final regression model (Random Forest Regressor) directly through th
 
 Evaluated the model's predictive accuracy to validate its reliability for real-world real estate pricing.
 
-Built an Action Matrix using conditional DAX logic to automatically output text-based business recommendations (e.g., "Cap Discounts" vs. "Audit Supplier Costs") for the bottom 5 underperforming sub-categories.
